@@ -106,7 +106,7 @@ return (
     </div>
 
      {/* Link to download the Excel file */}
-     {/* <div className='text-center mt-8'>
+     <div className='text-center mt-8'>
         <a 
           href="/shiwani_contact_data.xlsx"
           download="shiwani_contact_data.xlsx" 
@@ -114,7 +114,7 @@ return (
         >
           Download Contact Data (Excel)
         </a>
-      </div> */}
+      </div>
     </div>
   );
 };
