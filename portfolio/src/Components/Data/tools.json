@@ -1,0 +1,19 @@
+[
+    {
+      "title": "Vscode",
+      "imageSrc": "tools/vscode.jpg"
+    },
+    {
+      "title": "Github",
+      "imageSrc": "tools/github.png"
+    },
+    {
+      "title": "Replit",
+      "imageSrc": "tools/replit.png"
+    },
+    {
+      "title": "Vercel",
+      "imageSrc": "tools/vercel.png"
+    }
+   
+  ]

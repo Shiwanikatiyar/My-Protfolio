@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(11, 26, 51);
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+:root {
+  --box-shadow: 5px 5px 10px 10px rgba(101, 175, 10, 0.5);
+  /* --bg-color: rgb(40, 47, 97); */
+}
+
+/* navbar */
+.nav_item:hover{
+  border-bottom: 3px solid yellow;
+  box-shadow: var(--box-shadow);
+}
+
+/* Shadow */
+.home .left{
+  box-shadow: var(--box-shadow);
+}
+
+.about .right{
+  box-shadow: var(--box-shadow);
+}
+
+.skills .items{
+  box-shadow: var(--box-shadow);
+}
+
+.project .card{
+  box-shadow: var(--box-shadow);
+}
+
+.contact{
+  box-shadow: var(--box-shadow);
+}
+
+/* colors */
+@keyframes shiwani {
+  0% {
+      border-color: blue;
+      transform: translate(0, 0px);
+      box-shadow: 10px 10px 100px 50px blue;
+  }
+
+  25% {
+      border-color: rgb(239, 244, 11);
+      box-shadow: 10px 10px 100px 50px rgb(239, 244, 11);
+  }
+
+  50% {
+      border-color: rgb(12, 12, 199);
+      transform: translate(0, 10px);
+      box-shadow: 10px 10px 100px 50px rgb(12, 12, 199);
+  }
+
+  75% {
+      border-color: rgb(130, 217, 160);
+      box-shadow: 10px 10px 100px 50px rgb(130, 217, 160);
+  }
+
+  100% {
+      border-color: rgb(50, 55, 205);
+      transform: translate(0, -0px);
+      box-shadow: 10px 10px 100px 50px rgb(50, 55, 205);
+  }
+}
+
+.home .right{
+  animation-name: shiwani;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.about .left img{
+  animation-name: shiwani;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}

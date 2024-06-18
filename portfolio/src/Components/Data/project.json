@@ -1,0 +1,26 @@
+[
+    {
+      "key": 1,
+      "title": "eBay Clone",
+      "imageSrc": "../../../public/assets/project/Screenshot 2024-06-08 153122.png",
+      "description": "The eBay Clone project is an elegant online shoping built with ReactJS and Chakra UI, offering intuitive navigation, responsive design, detailed product listings, and a secure shopping experience.",
+      "demo": "https://ebay-ashen.vercel.app/",
+      "source": "https://github.com/Shiwanikatiyar/Ebay"
+    }, 
+    {
+      "key": 1,
+      "title": "eBay Clone",
+      "imageSrc": "../../../public/assets/project/Screenshot 2024-06-08 153122.png",
+      "description": "The eBay Clone project is an elegant online shoping built with ReactJS and Chakra UI, offering intuitive navigation, responsive design, detailed product listings, and a secure shopping experience.",
+      "demo": "https://ebay-ashen.vercel.app/",
+      "source": "https://github.com/Shiwanikatiyar/Ebay"
+    }, 
+    {
+      "key": 1,
+      "title": "eBay Clone",
+      "imageSrc": "../../../public/assets/project/Screenshot 2024-06-08 153122.png",
+      "description": "The eBay Clone project is an elegant online shoping built with ReactJS and Chakra UI, offering intuitive navigation, responsive design, detailed product listings, and a secure shopping experience.",
+      "demo": "https://ebay-ashen.vercel.app/",
+      "source": "https://github.com/Shiwanikatiyar/Ebay"
+    }
+  ]
