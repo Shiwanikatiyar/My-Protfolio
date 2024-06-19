@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import git from './Data/git.json'
-import link from './Data/link.json'
-import mail from './Data/mail.json'
+import git from '../../public/assets/images/github.png'
+import link from '../../public/assets/images/link.png'
+import mail from '../../public/assets/images/mail.png'
 
 
 const Contact = () => {
@@ -88,19 +88,19 @@ return (
     </div>
     
     <div className='flex flex-col sm:flex-row justify-center items-center m-8 gap-4'>
-      <img className='w-10 h-10 rounded-lg transition-transform transform hover:scale-105' src={`/assets/${mail.imgSrc}`} alt="" />
+      <img className='w-10 h-10 rounded-lg transition-transform transform hover:scale-105' src={mail} alt="" />
       <p className='text-base sm:text-xl font-bold transition-transform transform hover:scale-105'>shiwanikatiyarknj@gmail.com</p>
     </div>
     
     <div className='flex justify-center m-8 gap-4'>
       <div>
         <a href="https://github.com/Shiwanikatiyar/" target="_blank" rel="noopener noreferrer">
-          <img className='w-10 h-10 rounded-lg transition-transform transform hover:scale-105' src={`/assets/${git.imgSrc}`} alt="" />
+          <img className='w-10 h-10 rounded-lg transition-transform transform hover:scale-105' src={git} alt="" />
         </a>
       </div>
       <div>
         <a href="https://www.linkedin.com/in/shiwanikatiyar/" target="_blank" rel="noopener noreferrer">
-          <img className='w-10 h-10 rounded-lg transition-transform transform hover:scale-105' src={`/assets/${link.imgSrc}`} alt="" />
+          <img className='w-10 h-10 rounded-lg transition-transform transform hover:scale-105' src={link} alt="" />
         </a>
       </div>
     </div>
