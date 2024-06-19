@@ -1,6 +1,7 @@
 import React from 'react'
-import logo from './Data/logo.json'
+
 import pdf from '../pdf/shiwani resume.pdf'
+import logo from "../../public/assets/images/Logo.jpg"
 
 const Navbar = () => {
     return (
@@ -13,7 +14,7 @@ const Navbar = () => {
             <div className="left font-bold">
                 <div className="img">
                     {/* Responsive image size */}
-                    <img className="h-8 sm:h-10 lg:h-12 nav_item" src={`/assets/${logo.imgSrc}`} alt="Logo" />
+                    <img className="h-8 sm:h-10 lg:h-12 nav_item" src={logo} alt="Logo" />
                 </div>
             </div>
             
