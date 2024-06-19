@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import git from '../../public/assets/images/github.png'
-import link from '../../public/assets/images/link.png'
-import mail from '../../public/assets/images/mail.png'
+import git from './assets/images/github.png'
+import link from './assets/images/link.png'
+import mail from './assets/images/mail.png'
 
 
 const Contact = () => {

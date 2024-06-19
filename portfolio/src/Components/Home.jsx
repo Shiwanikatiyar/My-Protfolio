@@ -1,6 +1,6 @@
 import React from 'react'
 import pdf from '../pdf/shiwani resume.pdf'
-import photo from './Data/photo.json'
+import photo from '../assets/images/gif.gif'
 import Typed from 'typed.js'
 import { useEffect, useRef } from 'react'
 

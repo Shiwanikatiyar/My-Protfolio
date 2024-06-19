@@ -1,7 +1,6 @@
 import React from 'react'
-
 import pdf from '../pdf/shiwani resume.pdf'
-import logo from "../../public/assets/images/Logo.jpg"
+import logo from '../assets/images/Logo.jpg'
 
 const Navbar = () => {
     return (

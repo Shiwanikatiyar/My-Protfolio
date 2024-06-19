@@ -1,31 +1,31 @@
 [
     {
       "title": "HTML",
-      "imageSrc": "../../../public/assets/images/html.png"
+      "imageSrc": "../assets/images/html.png"
     },
     {
       "title": "CSS",
-      "imageSrc": "../../../public/assets/images/css.png"
+      "imageSrc": "../assets/images/css.png"
     },
     {
       "title": "JavaScript",
-      "imageSrc": "../../../public/assets/images/javascript.png"
+      "imageSrc": "../assets/images/javascript.png"
     },
     {
       "title": "React",
-      "imageSrc": "../../../public/assets/images/react.png"
+      "imageSrc": "../assets/images/react.png"
     },
     {
       "title": "Python",
-      "imageSrc": "../../../public/assets/images/python.jpg"
+      "imageSrc": "../assets/images/python.jpg"
     },
     {
       "title": "Chakra UI",
-      "imageSrc": "../../../public/assets/images/chakra.jpg"
+      "imageSrc": "../assets/images/chakra.jpg"
     },
     {
       "title": "Tailwind",
-      "imageSrc": "../../../public/assets/images/tailwind.jpg"
+      "imageSrc": "../assets/images/tailwind.jpg"
     }
    
   ]

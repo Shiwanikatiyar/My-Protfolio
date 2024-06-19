@@ -1,19 +1,19 @@
 [
     {
       "title": "Vscode",
-      "imageSrc": "tools/vscode.jpg"
+      "imageSrc": "../../assets/images/vscode.jpg"
     },
     {
       "title": "Github",
-      "imageSrc": "tools/github.png"
+      "imageSrc": "../../assets/images/github.png"
     },
     {
       "title": "Replit",
-      "imageSrc": "tools/replit.png"
+      "imageSrc": "../../assets/images/replit.png"
     },
     {
       "title": "Vercel",
-      "imageSrc": "tools/vercel.png"
+      "imageSrc": "../../assets/images/vercel.png"
     }
    
   ]
