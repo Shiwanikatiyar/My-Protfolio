@@ -54,7 +54,7 @@ const Home = () => {
       {/* Right section */}
       <div className="right border-4 border-lime-300 w-3/4 lg:w-96 rounded-[12px]">
         <div>
-          <img className="img rounded-[12px] w-full h-auto" src={`/assets/${photo.imgSrc}`} alt="Profile" />
+          <img className="img rounded-[12px] w-full h-auto" src={photo} alt="Profile" />
         </div>
       </div>
     </div>

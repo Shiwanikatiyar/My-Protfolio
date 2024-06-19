@@ -11,7 +11,7 @@ const About = () => {
 
           <div className="left transition-transform hover:scale-105">
             <div>
-              <img className='border-4 border-lime-300 w-40 sm:w-60 lg:w-80 rounded-full' src={`/assets/${my.imgSrc}`} alt="my" />
+              <img className='border-4 border-lime-300 w-40 sm:w-60 lg:w-80 rounded-full' src={my} alt="my" />
             </div>
           </div>
 

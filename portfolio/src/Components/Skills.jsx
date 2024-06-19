@@ -14,7 +14,7 @@ const Skills = () => {
               className='items flex flex-col transition-transform hover:scale-105 items-center m-4 p-4 rounded-[12px] border-4 border-lime-300 bg-black w-full sm:w-1/2 lg:w-1/3'
               key={data.id}
             >
-              <img className='img w-20 h-20 mb-4' src={`/assets/${data.imageSrc}`} alt="" />
+              <img className='img w-20 h-20 mb-4' src={data.imageSrc} alt="" />
               <h3 className='heading text-xl sm:text-2xl lg:text-3xl font-bold text-center text-white'>{data.title}</h3>
             </div>
           ))}
@@ -28,7 +28,7 @@ const Skills = () => {
               className='items flex flex-col transition-transform hover:scale-105 items-center m-4 p-4 rounded-[12px] border-4 border-lime-300 bg-black w-full sm:w-1/2 lg:w-1/3'
               key={data.id}
             >
-              <img className='img w-20 h-20 mb-4' src={`/assets/${data.imageSrc}`} alt="" />
+              <img className='img w-20 h-20 mb-4' src={data.imageSrc} alt="" />
               <h3 className='heading text-xl sm:text-2xl lg:text-3xl font-bold text-center text-white'>{data.title}</h3>
             </div>
           ))}
