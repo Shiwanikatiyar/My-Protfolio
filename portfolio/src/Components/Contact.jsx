@@ -25,7 +25,7 @@ const Contact = () => {
     console.log(formData);
 
     // Show alert when form is submitted
-    alert('Form submitted successfully!');
+    alert('Massage Sent!');
 
     // Optionally, clear form fields after submission
     setFormData({
@@ -104,17 +104,6 @@ return (
         </a>
       </div>
     </div>
-
-     {/* Link to download the Excel file */}
-     <div className='text-center mt-8'>
-        <a 
-          href="/shiwani_contact_data.xlsx"
-          download="shiwani_contact_data.xlsx" 
-          className="bg-blue-500 text-white px-4 py-2 rounded transition-transform transform hover:scale-105"
-        >
-          Download Contact Data (Excel)
-        </a>
-      </div>
     </div>
   );
 };
