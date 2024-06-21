@@ -15,6 +15,7 @@ const Skills = () => {
               key={data.id}
             >
               <img className='img w-20 h-20 mb-4' src={data.imageSrc} alt="" />
+              {console.log(data.imageSrc)}
               <h3 className='heading text-xl sm:text-2xl lg:text-3xl font-bold text-center text-white'>{data.title}</h3>
             </div>
           ))}
