@@ -1,19 +1,19 @@
 [
     {
       "title": "Vscode",
-      "imageSrc": "../../assets/images/image/vscode.jpg"
+      "imageSrc": "../../../public/assets/image/vscode.jpg"
     },
     {
       "title": "Github",
-      "imageSrc": "../../assets/images/image/github.png"
+      "imageSrc": "../../../public/assets/image/github.png"
     },
     {
       "title": "Replit",
-      "imageSrc": "../../assets/images/image/replit.png"
+      "imageSrc": "../../../public/assets/image/replit.png"
     },
     {
       "title": "Vercel",
-      "imageSrc": "../../assets/images/image/vercel.png"
+      "imageSrc": "../../../public/assets/image/vercel.png"
     }
    
   ]
