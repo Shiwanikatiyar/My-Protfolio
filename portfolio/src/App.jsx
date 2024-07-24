@@ -7,9 +7,16 @@ import Skills from './Components/Skills'
 import Projects from './Components/Projects'
 import Contact from './Components/Contact'
 import Footer from './Components/Footer';
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+  useEffect(() => {
+    Aos.init();
+
+  }, [])
 
   return (
     <>
@@ -17,10 +24,10 @@ function App() {
       <div>
         <Home />
         <About />
-        <Skills/>
-        <Projects/>
-        <Contact/>
-        <Footer/>
+        <Skills />
+        <Projects />
+        <Contact />
+        <Footer />
       </div>
     </>
   )
