@@ -7,7 +7,7 @@ const Navbar = () => {
         
         <>
         {/* Container for the navbar, fixed to the top, with responsive padding */}
-        <div className="top-0 w-full mx-auto px-4 sm:px-6 lg:px-10 items-center flex justify-between bg-gray-700 font-bold text-base fixed">
+        <div className="top-0 w-full z-20 mx-auto px-4 sm:px-6 lg:px-10 items-center flex justify-between bg-gray-700 font-bold text-base fixed">
             
             {/* Left section for the logo */}
             <div className="left font-bold">

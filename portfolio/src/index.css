@@ -50,16 +50,16 @@ a {
       box-shadow: 10px 10px 100px 50px blue;
   }
 
-  25% {
+  /* 25% {
       border-color: rgb(239, 244, 11);
       box-shadow: 10px 10px 100px 50px rgb(239, 244, 11);
-  }
+  } */
 
-  50% {
+  /* 50% {
       border-color: rgb(12, 12, 199);
       transform: translate(0, 10px);
       box-shadow: 10px 10px 100px 50px rgb(12, 12, 199);
-  }
+  } */
 
   75% {
       border-color: rgb(130, 217, 160);
