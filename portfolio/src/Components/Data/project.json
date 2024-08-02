@@ -1,11 +1,19 @@
 [
     {
       "key": 1,
-      "title": "eBay Clone",
+      "title": "ebay Clone",
       "imageSrc": "../../../assets/image/ebay.png",
-      "description": "The eBay Clone project is an elegant online shoping built with ReactJS and Chakra UI, offering intuitive navigation, responsive design, detailed product listings, and a secure shopping experience.",
+      "description": "The ebay Clone project is an elegant online shoping built with ReactJS and Chakra UI, offering intuitive navigation, responsive design, detailed product listings, and a secure shopping experience.",
       "demo": "https://ebay-ashen.vercel.app/",
       "source": "https://github.com/Shiwanikatiyar/Ebay"
+    }, 
+    {
+      "key": 1,
+      "title": "Adidos",
+      "imageSrc": "../../../assets/image/adidas.png",
+      "description": "The Adidas project is a sleek and modern online store built with HTML, CSS, and JavaScript. It features a responsive design, user-friendly navigation, dynamic product displays, and seamless shopping experience. This project showcases the effective use of front-end technologies to create an engaging and interactive e-commerce platform.",
+      "demo": "https://adidos-sigma.vercel.app/",
+      "source": "https://github.com/Shiwanikatiyar/Adidos"
     } 
     
   ]
