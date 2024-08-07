@@ -4,10 +4,10 @@ import project from './Data/project.json'
 const Projects = () => {
   return (
     <>
-      <div className="container mx-auto p-4 sm:p-8 lg:p-16" id='project'>
+      <div className="container mx-auto p-4 sm:p-8 lg:p-10" id='project'>
         <h1 className='font-bold text-2xl sm:text-3xl lg:text-4xl text-center py-4 sm:py-8'>MY PROJECTS</h1>
 
-        <div className="project p-4 sm:p-8 lg:p-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="project p-4 sm:p-6 lg:p-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-7">
           {project.map((data) => (
             <div
               className='card transition-transform hover:scale-105 flex flex-col items-center rounded-[12px] border-4 border-lime-300 bg-gray-800'
