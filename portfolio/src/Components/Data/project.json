@@ -8,12 +8,20 @@
       "source": "https://github.com/Shiwanikatiyar/Ebay"
     }, 
     {
-      "key": 1,
+      "key": 2,
       "title": "Adidas",
       "imageSrc": "../../../assets/image/adidas.png",
       "description": "The Adidas project is a sleek and modern online store built with HTML, CSS, and JavaScript. It features a responsive design, user-friendly navigation, dynamic product displays, and seamless shopping experience. This project showcases the effective use of front-end technologies to create an engaging and interactive e-commerce platform.",
       "demo": "https://adidos-sigma.vercel.app/",
       "source": "https://github.com/Shiwanikatiyar/Adidos"
     } 
-    
+    , 
+    {
+      "key": 3,
+      "title": "BMI Calculator",
+      "imageSrc": "../../../public/assets/image/bmi.png",
+      "description": "A simple Body Mass Index (BMI) Calculator built using React.js. This tool allows users to calculate their BMI based on height and weight inputs, providing feedback on their fitness status based on standard BMI ranges.",
+      "demo": "https://bmi-calculator-kappa-two.vercel.app/",
+      "source": "https://github.com/Shiwanikatiyar/BMI-Calculator"
+    } 
   ]
